@@ -1,0 +1,360 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background: -webkit-linear-gradient(top, #ccf, #aaf, #ccf);
+	background: -moz-linear-gradient(top, #ccf, #aaf, #ccf);
+	background: -o-linear-gradient(top, #ccf, #aaf, #ccf);
+	background: -ms-linear-gradient(top, #ccf, #aaf, #ccf);
+}
+/*   Login Form    */
+#loginForm
+{
+	position: relative;
+	height: 282px;
+	width: 484px;
+	margin: auto;
+	
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 5px #000;
+	background: -webkit-linear-gradient(top, #99c, #ccf, #99c);
+	
+	-moz-border-radius: 10px;
+	-moz-box-shadow: inset 0 0 5px #000;
+	background: -moz-linear-gradient(top, #99c, #ccf, #99c);
+	
+	border-radius: 10px;
+	box-shadow: inset 0 0 5px #000;
+	background: -ms-linear-gradient(top, #99c, #ccf, #99c);
+	background: -o-linear-gradient(top, #99c, #ccf, #99c);
+	
+	color: #44a;
+}
+#loginForm_left
+{
+	width: 25px;
+	height: 282px;
+	float: left;
+}
+#loginForm_right
+{
+	width: 24px;
+	height: 282px;
+	float: right;
+}
+#loginForm_content
+{
+	float:left;
+	width: 435px;
+	height: 282px;
+}
+#loginForm_content
+{
+	padding: 80px 0 0 0;
+}
+#loginForm_content div
+{
+	margin-left: 70px;
+	width: 250px;
+	padding-top: 20px;
+}
+#loginForm_content input
+{
+	float: right;
+}
+#loginForm header
+{
+	position: absolute;
+	top: 19px;
+	left: 25px;
+	color: 118;
+	font-size: 20px;
+}
+#loginForm footer
+{
+	position: absolute;
+	top: 217px;
+	left: 25px;
+	width: 435px;
+	padding: 0 0 0 35px;
+}
+#loginForm footer div#loading
+{
+	float: left;
+	margin: 7px 20px 0 0;
+	display: none;
+	background: #fff;
+	padding: 5px;
+	
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 0 0 5px #000;
+	
+	-moz-border-radius: 5px;
+	-moz-box-shadow: 0 0 5px #000;
+	
+	border-radius: 5px;
+	box-shadow: 0 0 5px #000;
+}
+#loginFormGoButton
+{
+	width: 66px;
+	height: 27px;
+	cursor:pointer;
+	float: right;
+	margin: 0 6px 0 0;
+	padding: 8px 0 0 20px;
+	color:#080;
+	
+	-webkit-border-radius: 7px;
+	background: -webkit-linear-gradient(top, #4C4, #9E9, #4C4);
+	-webkit-box-shadow: inset 0 0 3px #0a0;
+	
+	-moz-border-radius: 7px;
+	background: -moz-linear-gradient(top, #4C4, #9E9, #4C4);
+	-moz-box-shadow: inset 0 0 3px #0a0;
+	
+	border-radius: 7px;
+	background: -ms-linear-gradient(top, #4C4, #9E9, #4C4);
+	box-shadow: inset 0 0 3px #0a0;
+	
+	background: -o-linear-gradient(top, #4C4, #9E9, #4C4);
+}
+#loginFormCloseButton
+{
+	cursor:pointer;
+	width: 71px;
+	height: 27px;
+	float: right;
+	margin: 0 40px 0 6px;
+	padding: 8px 0 0 15px;
+	color:#800;
+	
+	-webkit-border-radius: 7px;
+	background: -webkit-linear-gradient(top, #c44, #e99, #c44);
+	-webkit-box-shadow: inset 0 0 3px #a00;
+	
+	-moz-border-radius: 7px;
+	background: -moz-linear-gradient(top, #c44, #e99, #c44);
+	-moz-box-shadow: inset 0 0 3px #a00;
+	
+	border-radius: 7px;
+	background: -ms-linear-gradient(top, #c44, #e99, #c44);
+	box-shadow: inset 0 0 3px #a00;
+	
+	background: -o-linear-gradient(top, #c44, #e99, #c44);
+}
+/*   Notifier    */
+#notifier
+{
+	position:relative;
+	display: none;
+	margin: 30px auto;
+	width: 900px;
+	height: 73px;
+	
+	-webkit-box-shadow: 0 0 15px #a00;
+	-webkit-border-radius: 10px;
+	background: -webkit-linear-gradient(top, #C00, #E77, #C00);
+	
+	-moz-box-shadow: 0 0 15px #a00;
+	-moz-border-radius: 10px;
+	background: -moz-linear-gradient(top, #C00, #E77, #C00);
+	
+	box-shadow: 0 0 15px #a00;
+	border-radius: 10px;
+	background: -ms-linear-gradient(top, #C00, #E77, #C00);
+	
+	background: -o-linear-gradient(top, #C00, #E77, #C00);
+}
+#notifier_left
+{
+}
+#notifier_content
+{
+	position:absolute;
+	top: 20px;
+	left: 30px;
+	color: #fff;
+	font-weight:bold;
+	font-size:18px;	
+}
+#notifier_content a
+{
+	margin-left: 30px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #fff;
+	font-style: italic;
+}
+#notifier_right
+{
+}
+/*===============  Container 2  ==============*/
+#container2
+{
+	display: none;
+	position:relative;
+	margin: auto auto;
+	width: 850px;
+	
+	-webkit-box-shadow: inset 0 0 5px #000;
+	-webkit-border-radius: 10px;
+	background: -webkit-linear-gradient(left, #DDD, #EEE, #EEE, #DDD);
+	
+	-moz-box-shadow: inset 0 0 5px #000;
+	-moz-border-radius: 10px;
+	background: -moz-linear-gradient(left, #DDD, #EEE, #EEE, #DDD);
+	
+	box-shadow: inset 0 0 5px #000;
+	border-radius: 10px;
+	background: -ms-linear-gradient(left, #DDD, #EEE, #EEE, #DDD);
+	
+	background: -o-linear-gradient(left, #DDD, #EEE, #EEE, #DDD);
+}
+#container2_top
+{
+	height:24px;
+}
+#container2_header
+{
+	position:absolute;
+	left: 12px;
+	top: 20px;
+	width:800px;
+	height: 38px;
+	background: white;
+	padding: 5px 0 0 0;
+	
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 0 0 3px #000;
+	
+	-moz-border-radius: 5px;
+	-moz-box-shadow: 0 0 3px #000;
+	
+	border-radius: 5px;
+	box-shadow: 0 0 3px #000;
+}
+#navigation
+{
+	float: left;
+	font-size:25px;
+	color: rgb(199, 199, 199);
+	width: 35px;
+	height: 34px;
+	text-align: center;
+	cursor: pointer;
+}
+#container2_bottom
+{
+	height: 22px;
+}
+/*===============  Content  ==============*/
+#content
+{
+	width: 614px;
+	margin: 67px 0 0 87px;
+}
+#content_top
+{
+	height: 13px;
+}
+#content_bottom
+{
+	height: 15px;
+}
+#content_content
+{
+	padding: 0 30px 0 25px;
+	background: white;
+	
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 0 0 5px #000;
+	
+	-moz-border-radius: 10px;
+	-moz-box-shadow: 0 0 5px #000;
+	
+	border-radius: 10px;
+	box-shadow: 0 0 5px #000;
+}
+/*=================================================*/
+#add
+{
+	color: rgb(199,199,199);
+	font-size: 30px;
+	cursor: pointer;
+}
+#account
+{
+	border-top: 1px solid rgb(199,199,199);
+	border-bottom: 1px solid rgb(199,199,199);
+	color: rgb(199,199,199);
+	font-size: 35px;
+	margin-top: 14px;
+	cursor: pointer;
+	padding-bottom: 12px;
+}
+#account_content
+{
+	display: none;
+	/*height: 103px;*/
+	border: 1px solid rgb(199,199,199);
+	padding-left: 15px;
+}
+#account_content textarea
+{
+	margin: 30px 0 0 30px;
+}
+#account_content a
+{
+	margin: 0 0 0 30px;
+}
+#edit
+{
+	background: url(images/edit.gif);
+	float: right;
+	width: 18px;
+	height: 20px;
+	margin: 18px 0 0 0;
+}
+#delete
+{
+	background: url(images/delete.gif);
+	float: right;
+	width: 21px;
+	height: 20px;
+	margin: 18px 16px 0 24px;
+}
+#edit:hover, #delete:hover
+{
+	margin-top: 21px;
+}
+
+#add_content
+{
+	display: none;
+	/*height: 103px;*/
+	border: 1px solid rgb(199,199,199);
+	padding-left: 15px;
+}
+/*=========================*/
+#exit
+{
+	position: fixed;
+	bottom: 10px;
+	right: 20px;
+	display: none;
+}
+#changePass
+{
+	position: fixed;
+	bottom: 10px;
+	left: 20px;
+	display: none;
+}
+#loading
+{
+	background: url(images/loading.gif);
+	width: 177px;
+	height: 21px;
+}

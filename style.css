@@ -1,0 +1,271 @@
+﻿@charset "utf-8";
+body
+{
+	background: url(images/bg.gif);
+}
+/*   Login Form    */
+#loginForm
+{
+	position: relative;
+	background: url(images/loginForm.gif) repeat-x;
+	height: 282px;
+	width: 484px;
+	margin: auto;
+}
+#loginForm_left
+{
+	background: url(images/loginForm_left.gif);
+	width: 25px;
+	height: 282px;
+	float: left;
+}
+#loginForm_right
+{
+	background: url(images/loginForm_right.gif);
+	width: 24px;
+	height: 282px;
+	float: right;
+}
+#loginForm_content
+{
+	float:left;
+	width: 435px;
+	height: 282px;
+	background: url(images/loginForm.gif) repeat-x;
+}
+#loginForm_content
+{
+	padding: 80px 0 0 0;
+}
+#loginForm_content div
+{
+	margin-left: 70px;
+	width: 250px;
+	padding-top: 20px;
+}
+#loginForm_content input
+{
+	float: right;
+}
+#loginForm header
+{
+	position: absolute;
+	top: 19px;
+	left: 25px;
+	color: rgb(200, 200, 200);
+	font-size: 20px;
+}
+#loginForm footer
+{
+	position: absolute;
+	top: 217px;
+	left: 25px;
+	width: 435px;
+	padding: 0 0 0 35px;
+}
+#loginForm footer div#loading
+{
+	float: left;
+	margin: 7px 20px 0 0;
+	display: none;
+}
+#loginFormGoButton
+{
+	width: 66px;
+	height: 27px;
+	background: url(images/button.png);
+	cursor:pointer;
+	float: right;
+	margin: 0 6px 0 0;
+	padding: 8px 0 0 20px;
+}
+#loginFormCloseButton
+{
+	cursor:pointer;
+	width: 71px;
+	height: 27px;
+	background: url(images/button.png);
+	float: right;
+	margin: 0 40px 0 6px;
+	padding: 8px 0 0 15px;
+}
+/*   Notifier    */
+#notifier
+{
+	display: none;
+	margin: 123px 0 0 40px;
+	width: 900px;
+	height: 73px;
+	background: url(images/notifier.gif) repeat-x;
+}
+#notifier_left
+{
+	width: 73px;
+	height: 73px;
+	background: url(images/notifier_left.gif);
+	float: left;
+}
+#notifier_content
+{
+	float: left;
+	color: #fff;
+	padding: 29px 0 0 0;
+	margin: 0 0 0 30px;
+	font-weight:bold;
+	font-size:18px;	
+}
+#notifier_content a
+{
+	margin-left: 30px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #fff;
+	font-style: italic;
+}
+#notifier_right
+{
+	width: 8px;
+	height: 73px;
+	background: url(images/notifier_right.gif);
+	float: right;
+}
+/*===============  Container 2  ==============*/
+#container2
+{
+	display: none;
+	position:relative;
+	margin: auto auto;
+	background: url(images/container.gif) repeat-y;
+	width: 792px;
+}
+#container2_top
+{
+	background: url(images/container_top.gif);
+	height:24px;
+}
+#container2_header
+{
+	position:absolute;
+	left: 12px;
+	top: 20px;
+	width:766px;
+	height: 38px;
+	border-bottom: 2px solid rgb(220,220,220);
+}
+#navigation
+{
+	float: left;
+	font-size:25px;
+	color: rgb(199, 199, 199);
+	width: 35px;
+	height: 34px;
+	text-align: center;
+	cursor: pointer;
+}
+#container2_bottom
+{
+	background: url(images/container_bottom.gif);
+	height: 22px;
+}
+/*===============  Content  ==============*/
+#content
+{
+	background: url(images/content.gif) repeat-y;
+	width: 614px;
+	margin: 67px 0 0 87px;
+}
+#content_top
+{
+	background: url(images/content_top.gif);
+	height: 13px;
+}
+#content_bottom
+{
+	background: url(images/content_bottom.gif);
+	height: 15px;
+}
+#content_content
+{
+	padding: 0 30px 0 25px;
+}
+/*=================================================*/
+#add
+{
+	color: rgb(199,199,199);
+	font-size: 30px;
+	cursor: pointer;
+}
+#account
+{
+	border-top: 1px solid rgb(199,199,199);
+	border-bottom: 1px solid rgb(199,199,199);
+	color: rgb(199,199,199);
+	font-size: 35px;
+	margin-top: 14px;
+	cursor: pointer;
+	padding-bottom: 12px;
+}
+#account_content
+{
+	display: none;
+	/*height: 103px;*/
+	border: 1px solid rgb(199,199,199);
+	padding-left: 15px;
+}
+#account_content textarea
+{
+	margin: 30px 0 0 30px;
+}
+#account_content a
+{
+	margin: 0 0 0 30px;
+}
+#edit
+{
+	background: url(images/edit.gif);
+	float: right;
+	width: 18px;
+	height: 20px;
+	margin: 18px 0 0 0;
+}
+#delete
+{
+	background: url(images/delete.gif);
+	float: right;
+	width: 21px;
+	height: 20px;
+	margin: 18px 16px 0 24px;
+}
+#edit:hover, #delete:hover
+{
+	margin-top: 21px;
+}
+
+#add_content
+{
+	display: none;
+	/*height: 103px;*/
+	border: 1px solid rgb(199,199,199);
+	padding-left: 15px;
+}
+/*=========================*/
+#exit
+{
+	position: fixed;
+	bottom: 10px;
+	right: 20px;
+	display: none;
+}
+#changePass
+{
+	position: fixed;
+	bottom: 10px;
+	left: 20px;
+	display: none;
+}
+#loading
+{
+	background: url(images/loading.gif);
+	width: 177px;
+	height: 21px;
+}
